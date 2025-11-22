@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển Dụng - Sweet Dreams Ice Cream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a href="index.html" class="logo"><i class="fas fa-ice-cream"></i> Sweet Dreams</a>
+                </div>
+                <div class="col-md-9">
+                     <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="gioithieu.html"><i class="fas fa-info-circle"></i> Giới Thiệu</a></li>
+
+                <!-- HOVER DROPDOWN SẢN PHẨM -->
+                <li class="nav-item dropdown position-relative" id="sanphamHover">
+                    <a class="nav-link" href="sanpham.html">
+                        <i class="fas fa-ice-cream"></i> Sản Phẩm
+                    </a>
+                    <div class="dropdown-menu-products" id="productDropdown">
+                        <div class="product-grid">
+                            <div class="product-item">
+                                <i class="fas fa-ice-cream"></i>
+                                <span>Kem ốc quế</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-ice-cream"></i>
+                                <span>Kem ly</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-box"></i>
+                                <span>Kem hộp 85g</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-box-open"></i>
+                                <span>Kem hộp 450g</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="tintuc.html"><i class="fas fa-newspaper"></i> Tin Tức</a></li>
+                <li class="nav-item"><a class="nav-link active" href="khuyenmai.html"><i class="fas fa-gift"></i> Khuyến Mãi</a></li>
+                <li class="nav-item"><a class="nav-link" href="taikhoan.html"><i class="fas fa-user"></i> Tài Khoản</a></li>
+                <li class="nav-item"><a class="nav-link" href="tuyendung.html"><i class="fas fa-briefcase"></i> Tuyển Dụng</a></li>
+                <li class="nav-item"><a class="nav-link" href="lienhe.html"><i class="fas fa-envelope"></i> Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="main-content">
+            <h2 class="page-title">Tuyển Dụng Nhân Tài</h2>
+
+            <!-- Banner -->
+            <div class="banner">
+                <h1>Gia Nhập Đội Ngũ Sweet Dreams</h1>
+                <p>Cùng mang niềm vui ngọt ngào đến mọi người!</p>
+                <a href="#positions" class="btn btn-primary btn-lg mt-3">Xem Vị Trí</a>
+            </div>
+
+            <!-- Job Listings -->
+            <div class="row g-4" id="positions">
+                <!-- Vị trí 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm job-card-item">
+                        <div class="product-image-wrapper">
+                            <img src="media/Gintama_Episode_39.webp" class="product-img" alt="Nhân viên phục vụ">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-name">Nhân Viên Phục Vụ</h5>
+                            <p class="product-desc">Năng động, thân thiện, yêu thích kem. Làm việc tại cửa hàng.</p>
+                            <p class="product-price text-success fw-bold">25.000 - 35.000đ/giờ</p>
+                            <a href="lienhe.html" class="btn-add-to-cart w-100">
+                                <i class="fas fa-paper-plane"></i> Ứng Tuyển Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vị trí 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm job-card-item">
+                        <div class="product-image-wrapper">
+                            <img src="media/gintoki-gintama.gif" class="product-img" alt="Đầu bếp kem">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-name">Đầu Bếp Làm Kem</h5>
+                            <p class="product-desc">Kinh nghiệm 1+ năm, sáng tạo hương vị mới. Full-time.</p>
+                            <p class="product-price text-success fw-bold">10 - 14 triệu/tháng</p>
+                            <a href="lienhe.html" class="btn-add-to-cart w-100">
+                                <i class="fas fa-paper-plane"></i> Ứng Tuyển Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vị trí 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="col-md-12 d-block d-lg-none"></div> <!-- Cân bằng lưới -->
+                    <div class="card h-100 border-0 shadow-sm job-card-item">
+                        <div class="product-image-wrapper">
+                            <img src="media/Screenshot 2025-11-14 225355.png" class="product-img" alt="Marketing">
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-name">Nhân Viên Marketing</h5>
+                            <p class="product-desc">Chạy ads FB/TikTok, sáng tạo nội dung. Làm việc từ xa.</p>
+                            <p class="product-price text-success fw-bold">6 - 10 triệu/tháng</p>
+                            <a href="lienhe.html" class="btn-add-to-cart w-100">
+                                <i class="fas fa-paper-plane"></i> Ứng Tuyển Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gửi CV -->
+            <div class="text-center mt-5 p-4 bg-light rounded">
+                <h5 class="mb-3">Bạn đam mê kem?</h5>
+                <p class="lead mb-3">Gửi CV về: <strong>hr@sweetdreams.vn</strong></p>
+                <a href="mailto:hr@sweetdreams.vn" class="btn btn-lg btn-danger">
+                    <i class="fas fa-envelope"></i> Gửi CV Ngay
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Sweet Dreams Ice Cream</h4>
+                    <p>Chúng tôi mang đến những hương vị kem tuyệt vời nhất...</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Liên Kết Nhanh</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Trang Chủ</a></li>
+                        <li class="mb-2"><a href="khuyenmai.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Khuyến Mãi</a></li>
+                        <li class="mb-2"><a href="tuyendung.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Tuyển Dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Liên Hệ</h4>
+                    <p><i class="fas fa-phone"></i> (028) 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@sweetdreams.vn</p>
+                </div>
+            </div>
+            <hr class="my-4" style="background-color: rgba(255,255,255,0.2);">
+            <p class="text-center text-white mb-0">© 2025 Sweet Dreams Ice Cream</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Hover menu sản phẩm
+        const sanphamHover = document.getElementById('sanphamHover');
+        let timeout;
+        sanphamHover.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+            document.getElementById('productDropdown').style.display = 'block';
+        });
+        sanphamHover.addEventListener('mouseleave', () => {
+            timeout = setTimeout(() => {
+                document.getElementById('productDropdown').style.display = 'none';
+            }, 300);
+        });
+    </script>
+</body>
+</html>

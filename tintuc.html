@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams Ice Cream - Tin Tức</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-ice-cream"></i> Sweet Dreams
+                    </a>
+                </div>
+                <div class="col-md-9">
+                     <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="gioithieu.html"><i class="fas fa-info-circle"></i> Giới Thiệu</a></li>
+
+                <!-- HOVER DROPDOWN SẢN PHẨM -->
+                <li class="nav-item dropdown position-relative" id="sanphamHover">
+                    <a class="nav-link" href="sanpham.html">
+                        <i class="fas fa-ice-cream"></i> Sản Phẩm
+                    </a>
+                    <div class="dropdown-menu-products" id="productDropdown">
+                        <div class="product-grid">
+                            <div class="product-item">
+                                <i class="fas fa-ice-cream"></i>
+                                <span>Kem ốc quế</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-ice-cream"></i>
+                                <span>Kem ly</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-box"></i>
+                                <span>Kem hộp 85g</span>
+                            </div>
+                            <div class="product-item">
+                                <i class="fas fa-box-open"></i>
+                                <span>Kem hộp 450g</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="tintuc.html"><i class="fas fa-newspaper"></i> Tin Tức</a></li>
+                <li class="nav-item"><a class="nav-link active" href="khuyenmai.html"><i class="fas fa-gift"></i> Khuyến Mãi</a></li>
+                <li class="nav-item"><a class="nav-link" href="taikhoan.html"><i class="fas fa-user"></i> Tài Khoản</a></li>
+                <li class="nav-item"><a class="nav-link" href="tuyendung.html"><i class="fas fa-briefcase"></i> Tuyển Dụng</a></li>
+                <li class="nav-item"><a class="nav-link" href="lienhe.html"><i class="fas fa-envelope"></i> Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-content">
+                    <h2 class="page-title">Tin Tức & Sự Kiện</h2>
+                    
+                    <!-- Banner Động Thường -->
+                    <div class="banner">
+                        <h1>Cập Nhật Tin Tức Mới Nhất</h1>
+                        <p>Theo dõi sự kiện và ưu đãi đặc biệt từ Sweet Dreams</p>
+                        <a href="sanpham.html" class="btn btn-primary btn-lg">Xem Sản Phẩm</a>
+                    </div>
+                    
+                    <div class="video-container mb-4">
+                        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video giới thiệu kem ngon" allowfullscreen></iframe>
+                    </div>
+                    
+                    <h4>Tin Tức Mới Nhất</h4>
+                    <div class="news-item">
+                        <h5><i class="fas fa-calendar-alt me-2 text-primary"></i> Khai Trương Chi Nhánh Mới Tại Quận 3</h5>
+                        <p class="text-muted">Sweet Dreams Ice Cream vừa khai trương chi nhánh mới tại số 123 Đường Nguyễn Đình Chiểu, Quận 3. Nhân dịp khai trương, cửa hàng áp dụng chương trình ưu đãi giảm 30% tất cả sản phẩm trong tuần đầu tiên.</p>
+                        <small class="text-muted">Đăng bởi Admin - 15/10/2025</small>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h5><i class="fas fa-calendar-alt me-2 text-primary"></i> Ra Mắt Bộ Sưu Tập Kem Mùa Thu</h5>
+                        <p class="text-muted">Mùa thu năm nay, chúng tôi giới thiệu bộ sưu tập kem đặc biệt với các hương vị mới như kem bí đỏ, kem quế mật ong và kem táo quế. Tất cả đều được chế biến từ nguyên liệu mùa thu tươi ngon nhất.</p>
+                        <small class="text-muted">Đăng bởi Admin - 10/10/2025</small>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h5><i class="fas fa-calendar-alt me-2 text-primary"></i> Giải Thưởng Kem Ngon Nhất 2025</h5>
+                        <p class="text-muted">Sweet Dreams Ice Cream vinh dự nhận giải thưởng "Kem Ngon Nhất 2025" do Hiệp Hội Thực Phẩm Việt Nam trao tặng. Đây là minh chứng cho chất lượng và sự đổi mới không ngừng của chúng tôi.</p>
+                        <small class="text-muted">Đăng bởi Admin - 05/10/2025</small>
+                    </div>
+                    
+                    <h4 class="mt-4">Dịch Vụ Của Chúng Tôi</h4>
+                    <ul>
+                        <li class="py-2 border-bottom"><strong>Giao Hàng Tận Nơi:</strong> Giao hàng nhanh chóng trong vòng 30 phút với đơn hàng trong khu vực nội thành.</li>
+                        <li class="py-2 border-bottom"><strong>Tổ Chức Sự Kiện:</strong> Nhận tổ chức tiệc sinh nhật, sự kiện công ty với dịch vụ kem phục vụ tận nơi.</li>
+                        <li class="py-2 border-bottom"><strong>Làm Kem Tự Chọn:</strong> Dịch vụ làm kem theo sở thích khách hàng với các nguyên liệu tươi ngon nhất.</li>
+                        <li class="py-2 border-bottom"><strong>Khóa Học Làm Kem:</strong> Tổ chức các khóa học ngắn hạn dạy làm kem tại cửa hàng cho người yêu thích ẩm thực.</li>
+                    </ul>
+                    
+                    <div class="alert alert-success mt-4">
+                        <i class="fab fa-facebook me-2"></i> Theo dõi fanpage của chúng tôi để cập nhật tin tức mới nhất: <a href="#" class="alert-link">facebook.com/SweetDreamsIceCream</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Sweet Dreams Ice Cream</h4>
+                    <p>Chúng tôi mang đến những hương vị kem tuyệt vời nhất, được làm từ nguyên liệu tự nhiên và tươi ngon nhất để mang lại niềm vui cho mọi người.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Liên Kết Nhanh</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Trang Chủ</a></li>
+                        <li class="mb-2"><a href="sanpham.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Sản Phẩm</a></li>
+                        <li class="mb-2"><a href="tintuc.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Tin Tức</a></li>
+                        <li class="mb-2"><a href="taikhoan.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Tài Khoản</a></li>
+                        <li class="mb-2"><a href="lienhe.html" class="text-white text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Thông Tin Liên Hệ</h4>
+                    <div class="contact-info">
+                        <p class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Đường Sweets, Quận 1, TP.HCM</p>
+                        <p class="mb-2"><i class="fas fa-phone"></i> (028) 1234 5678</p>
+                        <p class="mb-2"><i class="fas fa-envelope"></i> info@sweetdreams.vn</p>
+                        <p class="mb-2"><i class="fas fa-clock"></i> 8:00 - 22:00 hàng ngày</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-
